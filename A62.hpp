@@ -32,23 +32,3 @@ void printout(double result)
         cout << "The result is " << setw(10) << fixed << setprecision(5) << result << endl;
 }
 
-int main()
-{
-        using namespace std;
-        int nthpower;
-        double result; 
-
-        cout << "Enter number: ";
-        cin >> nthpower;
-        if(nthpower > 0)
-        {
-                result = nthpowerp(nthpower);
-        }
-        else if (nthpower < 0)
-        {
-              result = nthpowern(nthpower);  
-        }
-
-        printout(result);
-        return 0;
-}
